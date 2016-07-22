@@ -1,0 +1,21 @@
+{
+    "name": "dubhunter/libphonenumber",
+    "description": "A set of wrappers for working with giggsey/libphonenumber-for-php",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Will Mason",
+            "email": "the@dubhunter.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dubhunter\\Libphonenumber\\": "src"
+        }
+    },
+    "require": {
+        "giggsey/libphonenumber-for-php": "^7.4"
+    }
+}
